@@ -8,3 +8,10 @@ services:
     build: .
     depends_on:
       - web
+  
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
