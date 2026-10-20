@@ -43,3 +43,4 @@ An end-to-end hands-on DevOps project demonstrating containerization, multi-serv
 - **Day 8**: Integrated Prometheus metrics collection on port 9090.
 - **Day 9**: Deployed Grafana visualization connected to Prometheus data source on port 3000.
 - **Day 10**: Production portfolio documentation, teardown testing, and sprint finalization.- Day 1 (Evening): Verified local k8s cluster bootstrap, deployed declare manifests from k8s/ dirrectory, and confirmed service port-forwarding on port 8080
+- Day 2 (DevOps): Tested replica scaling to 4, resolved rolling update timeout, and verified targeted rollback to revision 1
